@@ -243,18 +243,26 @@ section {
 .project_box {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
   justify-content: center;
+  gap: 2rem;
+  text-align: center;
 }
 .project_box .project {
-  width: 40%;
-  min-width: 350px;
-  display: flex;
-  flex-wrap: wrap;
-  border: 0.5px solid #d9c6a7;
+  padding: 1rem;
+  width: 26%;
+  min-width: 300px;
+  border: 1px solid #d9c6a7;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
 }
-.project_box .project img {
+.project_box a {
+  text-decoration: none;
+  color: lightblue;
+}
+.project_box img {
   width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+  border-radius: 5px;
 }/*# sourceMappingURL=style.css.map */
