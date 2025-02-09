@@ -2,7 +2,7 @@
       border: 0;
       padding: 0;
       box-sizing: border-box;
-      color: #d9c6a7;
+      color: whitesmoke;
       font-weight: 200;
       overflow-x: hidden;
 }
@@ -12,10 +12,15 @@ html, body{
       background-color: #0e0e0e;
       padding: 10px;
       width: 100%;
+      position: relative;
 }
 nav{
       display: flex;
       justify-content: center;
+}
+.name{
+      font-weight: 700;
+      color: rgb(36, 184, 243);
 }
 .navbar{
       position: fixed;
@@ -27,13 +32,13 @@ nav{
       border-radius: 2px;
       margin: auto;
       border: 1px solid #d9c6a7;
-      background-color: transparent;
+      background-color: #1f1e1ccc;
       gap: 1.5vw;
       
       img{
-            width: 80px;
+            width: 85px;
             cursor: pointer;
-            padding: 4px;
+            padding: 3px;
       }
 
       li { 
@@ -60,25 +65,50 @@ nav{
             transition: all 100ms;
       }
       button:hover{
-            background-color: #dacbb4;
+            background-color: blueviolet;
             scale: 1.05;
       }
    
 }
 
 
-// =========== section => page_1 ========================
+// =========== section => page_1 (Homepage) ========================
 section{
       margin-top: 1rem;
+}
+.homePage_1{
+      width: 100%;
+      display: flex;
+      justify-content: center;
+
+      img{
+            width: 35%;
+      }
+      
+}
+.social_icon{
+      position:fixed;
+      left: 2%;
+      top: 27%;
+
+      a{
+            display: flex;
+            flex-direction: row;
+            padding-bottom: 0.7rem;
+            text-decoration: none;
+      }
+      i{
+            font-size: 1.5rem;
+            color: rgb(36, 184, 243);
+            
+      }
 }
 .page_1{
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      img{
-            width: 35%;
-      }
+
       h1{
             font-size: 6rem;
             font-weight: 200;
@@ -91,6 +121,11 @@ section{
           text-align: center;  
       }
 
+}
+
+.down_arrow_center{
+      display: flex;
+      justify-content: center;
 }
 .down_arrow{
       font-family: "Barlow Semi Condensed", serif;
@@ -273,7 +308,7 @@ section{
       }
       a{
             text-decoration: none;
-            color: lightblue;
+            color: rgb(36, 184, 243);
       }
 
       img{

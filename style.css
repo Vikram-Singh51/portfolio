@@ -2,7 +2,7 @@
   border: 0;
   padding: 0;
   box-sizing: border-box;
-  color: #d9c6a7;
+  color: whitesmoke;
   font-weight: 200;
   overflow-x: hidden;
 }
@@ -13,11 +13,17 @@ html, body {
   background-color: #0e0e0e;
   padding: 10px;
   width: 100%;
+  position: relative;
 }
 
 nav {
   display: flex;
   justify-content: center;
+}
+
+.name {
+  font-weight: 700;
+  color: rgb(36, 184, 243);
 }
 
 .navbar {
@@ -31,13 +37,13 @@ nav {
   border-radius: 2px;
   margin: auto;
   border: 1px solid #d9c6a7;
-  background-color: transparent;
+  background-color: rgba(31, 30, 28, 0.8);
   gap: 1.5vw;
 }
 .navbar img {
-  width: 80px;
+  width: 85px;
   cursor: pointer;
-  padding: 4px;
+  padding: 3px;
 }
 .navbar li {
   list-style: none;
@@ -62,7 +68,7 @@ nav {
   transition: all 100ms;
 }
 .navbar button:hover {
-  background-color: #dacbb4;
+  background-color: blueviolet;
   scale: 1.05;
 }
 
@@ -70,14 +76,36 @@ section {
   margin-top: 1rem;
 }
 
+.homePage_1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.homePage_1 img {
+  width: 35%;
+}
+
+.social_icon {
+  position: fixed;
+  left: 2%;
+  top: 27%;
+}
+.social_icon a {
+  display: flex;
+  flex-direction: row;
+  padding-bottom: 0.7rem;
+  text-decoration: none;
+}
+.social_icon i {
+  font-size: 1.5rem;
+  color: rgb(36, 184, 243);
+}
+
 .page_1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.page_1 img {
-  width: 35%;
 }
 .page_1 h1 {
   font-size: 6rem;
@@ -89,6 +117,11 @@ section {
   font-family: "Saira", serif;
   font-size: 1rem;
   text-align: center;
+}
+
+.down_arrow_center {
+  display: flex;
+  justify-content: center;
 }
 
 .down_arrow {
@@ -258,7 +291,7 @@ section {
 }
 .project_box a {
   text-decoration: none;
-  color: lightblue;
+  color: rgb(36, 184, 243);
 }
 .project_box img {
   width: 100%;

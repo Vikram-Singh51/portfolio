@@ -4,7 +4,7 @@
       <meta charset="UTF-8">
       <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <title>Vikram Singh</title>
-      <link rel="icon" type="image/png" sizes="32x32" href="/public/logocircle.png">
+      <link rel="icon" type="image/png" sizes="32x32" href="/public/circleimage.jpeg">
       <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wdth,wght@0,150,100..900;1,150,100..900&family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Karla:ital,wght@0,200..800;1,200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,300&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&family=Saira:ital,wght@0,100..900;1,100..900&family=Sofia+Sans+Semi+Condensed:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
@@ -15,30 +15,40 @@
       <!--============ Navbar ================ -->
       <nav>
             <div class="navbar">
-            <img src="/public/logo_text.svg" alt="">
-            <li><a href="#">Slills</a></li>
-            <li><a href="#">Project</a></li>
-            <li><a href="#">about</a></li>
-            <li><a href="#">resume</a></li>
+            <li class="name">VIKRAM</li>
+            <li><a href="#mySkill">Slills</a></li>
+            <li><a href="#myProject">Project</a></li>
+            <li><a href="#abooutMe">about</a></li>
+            <li><a href="#myResume">resume</a></li>
             <button>let's talk</button>
       </div>
       </nav>
          
       <!--============ Home Page ============-->
        <section class="page_1">
-        <img src="/public/bnner.png" alt="">
+      <div class="homePage_1">
+            <div class="social_icon">
+                  <a href="https://github.com/Vikram-Singh51" target="_blank"><i class="ri-github-fill"></i></a>
+             <a href="https://www.linkedin.com/in/vksingh15/" target="_blank"><i class="ri-linkedin-box-fill"></i></a>
+                  <a href="https://x.com/SinghVikram59" target="_blank"><i class="ri-twitter-fill"></i></a>
+                  <a href="mailto:vikrmsingh@outlook.in" target="_blank"><i class="ri-mail-send-fill"></i></a>
+            </div>
+            <img src="/public/mine_image.png" alt="">
+      </div>
+      <div class="homePage_2">
         <h1>Web Developer <br>
         <i>& Designer</i></h1>
 
         <p>Premium Web Design, Development, and SEO services to <br> help your business stand out.</p>
         
-        <div class="down_arrow">
-            <a href="#"><i id="arrow" class="ri-arrow-down-line"></i></a>
-            <a href="#">My Services</a>
+        <div class="down_arrow down_arrow_center">
+            <a href="#myProject"><i id="arrow" class="ri-arrow-down-line"></i></a>
+            <a href="#myProject">My Projects</a>
         </div>
+      </div>
        </section>
 <!--============ Page 2 ============-->
-       <section class="page_2">
+       <section class="page_2" id="mySkill">
             <div class="marquee">
                   <div id="blur_left"></div>
             <div class="marquee-images">
@@ -99,7 +109,7 @@
         </section>
 <!--============ Page 4 ============-->
  <section>
-      <div class="selected_work">
+      <div class="selected_work" id="myProject">
             
             <div class="project_heading">
                   <h2>Projects</h2>
@@ -124,7 +134,8 @@
             </div>
 
             <div class="project">
-                  <a href="https://huddle-landing-homepage.netlify.app"><img src="/public/huddle.png" alt=""></a>
+                  <a href="https://huddle-landing-homepage.netlify.app">
+                   <img src="/public/hud2.jpg" alt=""></a>
                   <h3>Huddles Landing Page</h3>
                   <a href="https://huddle-landing-homepage.netlify.app" target="_blank">See Live</a>
             </div>
